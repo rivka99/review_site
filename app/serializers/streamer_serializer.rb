@@ -1,4 +1,4 @@
 class StreamerSerializer
   include FastJsonapi::ObjectSerializer
-  attributes :name, :img_url, :slug
+  attributes :name, :image_url, :slug
 end
