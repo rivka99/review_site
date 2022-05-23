@@ -59,12 +59,12 @@ reviews = Review.create([
         description: 'At first, I thought they new what they were doing, but now they have removed all the 
         good shows. I was paying for a huge database of good movies, not cheap movies!',
         score: 1,
-        streamer: streamers.first
+        streamer: Streamer.first
     },
     {
         title: 'Streaming is the new wheel',
         description: 'I challenge you to find a more entertaining and enjoyable 21st century invention. I love Netflix, best app.',
         score: 5,
-        streamer: streamers.first
+        streamer: Streamer.first
     }
 ])
